@@ -1,9 +1,7 @@
-mport '@testing-library/jest-dom'
-import { render, screen } from '@testing-library/react'
-import Page from '../app/page'
- 
+import '@testing-library/jest-dom'
+
 describe('basic test', () => {
   it('adds numbers', () => {
-    expect(1 + 1).toBe(2);
-  });
-});
+    expect(1 + 1).toBe(2)
+  })
+})
